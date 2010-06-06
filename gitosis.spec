@@ -13,6 +13,7 @@ BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	Zope-dirs
+Requires:	git-core
 Requires:	python-distribute
 Requires:	python-libs
 Requires:	python-modules
