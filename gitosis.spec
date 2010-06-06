@@ -1,3 +1,10 @@
+# TODO:
+# - should it provide git account, or let admin create it on his own?
+#   pros: service working out-of-the-box
+#   cons: admin may want to use other name than git
+#   Note that it is not a daemon.
+# - what to do with all these .conf files?
+# - how is it excpected to cooperate with git-daemon?
 Summary:	Software for hosting git repositories
 Summary(pl.UTF-8):	Narzędzie do hostowania repozytoriów git
 Name:		gitosis
