@@ -48,12 +48,14 @@ rm -rf $RPM_BUILD_ROOT
 %py_comp $RPM_BUILD_ROOT%{py_sitescriptdir}
 %py_postclean
 
+rm -rf $RPM_BUILD_ROOT%{py_sitescriptdir}/gitosis/test
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.rst TODO.rst example.conf
+%doc README.rst TODO.rst example.conf gitweb.conf lighttpd-gitweb.conf etc-event.d-local-git-daemon
 %dir %{py_sitescriptdir}/gitosis
 %{py_sitescriptdir}/gitosis/*.py[co]
 %{py_sitescriptdir}/gitosis/templates
