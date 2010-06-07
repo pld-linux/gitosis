@@ -19,7 +19,6 @@ URL:		http://eagain.net/gitweb/?p=gitosis.git
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
-Requires:	Zope-dirs
 Requires:	git-core
 Requires:	python-distribute
 Requires:	python-libs
