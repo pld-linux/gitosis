@@ -11,7 +11,7 @@ Name:		gitosis
 Version:	20100816
 Release:	0.1
 License:	GPL v2
-Group:		Development/Languages/Python
+Group:		Development/Tools
 # git://eagain.net/gitosis.git
 Source0:	http://execve.pl/PLD/%{name}-%{version}.tar.bz2
 # Source0-md5:	290a91ce5ff9173810518d5a42a03bcb
