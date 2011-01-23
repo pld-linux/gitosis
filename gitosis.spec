@@ -12,6 +12,7 @@ Source0:	http://execve.pl/PLD/%{name}-%{version}.tar.bz2
 # Source0-md5:	290a91ce5ff9173810518d5a42a03bcb
 URL:		http://eagain.net/gitweb/?p=gitosis.git
 BuildRequires:	python-devel
+BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	git-core
